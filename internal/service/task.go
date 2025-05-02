@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/yourusername/task-manager/internal/repository"
+	"github.com/W1mer/TicketControlSystem/internal/repository"
 )
 
 // TaskService - сервис для работы с задачами

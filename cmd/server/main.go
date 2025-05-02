@@ -9,13 +9,10 @@ import (
 	"net/http"
 	"os"
 
-	//"github.com/Wimer/TicketControlSystem/internal/api"
-	//"github.com/Wimer/TicketControlSystem/internal/repository"
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
 	"github.com/rs/zerolog"
-	//"github.com/Wimer/TicketControlSystem/internal/service"
 )
 
 func main() {

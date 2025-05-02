@@ -1,0 +1,23 @@
+POST http://localhost:8080/tasks
+X-API-Key: supersecretkey
+Content-Type: application/json
+
+{"title":"Xuy2","status":"Completed"}
+
+###
+
+GET http://localhost:8080/tasks/2
+X-API-Key: supersecretkey
+
+###
+
+PUT http://localhost:8080/tasks/1
+X-API-Key: supersecretkey
+Content-Type: application/json
+
+{"title":"Updated Task","status":"done"}
+
+###
+
+DELETE http://localhost:8080/tasks/1
+X-API-Key: supersecretkey

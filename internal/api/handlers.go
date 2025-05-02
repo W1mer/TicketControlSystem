@@ -5,8 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/Wimer/TicketControlSystem/internal/repository"
-	"github.com/Wimer/TicketControlSystem/internal/service"
+	"github.com/W1mer/TicketControlSystem/internal/service"
 	"github.com/gorilla/mux"
 	"github.com/rs/zerolog"
 )
