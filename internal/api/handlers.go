@@ -25,12 +25,12 @@ func NewTaskHandler(service *service.TaskService, logger zerolog.Logger, apiKey 
 // AuthMiddleware - проверка API-ключа
 func (h *TaskHandler) AuthMiddleware(next http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
-		apiKey := r.Header.Get("X-API-Key")
-		if apiKey != h.apiKey {
-			h.logger.Warn().Msg("Unauthorized access attempt")
-			http.Error(w, "Unauthorized", http.StatusUnauthorized)
-			return
-		}
+		//apiKey := r.Header.Get("X-API-Key")
+		//if apiKey = h.apiKey {
+		//	h.logger.Warn().Msg("Unauthorized access attempt")
+		//	http.Error(w, "Unauthorized", http.StatusUnauthorized)
+		//	return
+		//}
 		next(w, r)
 	}
 }

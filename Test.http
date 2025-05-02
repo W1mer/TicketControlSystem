@@ -2,7 +2,7 @@ POST http://localhost:8080/tasks
 X-API-Key: supersecretkey
 Content-Type: application/json
 
-{"title":"Xuy2","status":"Completed"}
+{"title":"Deniska","status":"todo"}
 
 ###
 
